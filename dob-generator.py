@@ -17,6 +17,6 @@ def dob_generator(account, service="", minyears=18):
 	hash_val = int(hash, base=16)
 	s_notrandom = hash_val % (s_max-s_min)
 
-	return datetime.date.fromtimestamp(s_min + s_notrandom)
+	return datetime.date.fromtimestamp(s_min + s_notrandom), hash[1:16]
 
 print(dob_generator("me@example.com","twitter"))
