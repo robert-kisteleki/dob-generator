@@ -1,4 +1,4 @@
-# Date Of Birth (and Mother's Name) )Generator
+# Date Of Birth (and Mother's Name) Generator
 
 A simple Python script to consistently generate a date of birth (DoB) and a mother's name for you.
 
